@@ -462,12 +462,6 @@ button:focus-visible {
   color: var(--green);
 }
 
-.option-check {
-  margin-left: auto;
-  color: var(--green);
-  font-size: 13px;
-}
-
 .option-button:disabled {
   cursor: default;
 }

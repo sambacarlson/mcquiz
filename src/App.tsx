@@ -98,6 +98,11 @@ function App() {
     )
   }
 
+  function retryAnswer() {
+    setResults((previous) => previous.filter((_, index) => index !== questionIndex))
+    setSelectedOption(null)
+  }
+
   function continueQuiz() {
     if (!activeQuiz) return
     if (questionIndex === activeQuiz.questions.length - 1) {
@@ -242,7 +247,7 @@ function App() {
                           </div>
                         ) : (
                           <button className="reveal-link" type="button" onClick={() => revealAnswer(index)}>
-                            Reveal correct answer <span aria-hidden="true">→</span>
+                            {result.correct ? 'Explain' : 'Reveal correct answer'} <span aria-hidden="true">→</span>
                           </button>
                         )}
                       </div>
@@ -286,7 +291,6 @@ function App() {
                   >
                     <span className="option-letter">{String.fromCharCode(65 + index)}</span>
                     <span>{option}</span>
-                    {selectedOption === index && !currentResult && <span className="option-check" aria-hidden="true">✓</span>}
                   </button>
                 ))}
               </div>
@@ -295,10 +299,18 @@ function App() {
                   <span className="feedback-icon" aria-hidden="true">{currentResult.correct ? '✓' : '!'}</span>
                   <div>
                     <strong>{currentResult.correct ? 'That’s right!' : 'Not quite!'}</strong>
-                    <p>{currentResult.correct ? 'Nice work. Ready for the next one?' : 'No worries. You can reveal the answer if you’d like.'}</p>
+                    <p>{currentResult.correct ? 'Nice work. Ready for the next one?' : 'No worries. You can retry or reveal the answer.'}</p>
                   </div>
-                  {!currentResult.revealed && (
-                    <button className="feedback-reveal" type="button" onClick={() => revealAnswer(questionIndex)}>Reveal answer</button>
+                  {currentResult.correct && !currentResult.revealed && (
+                    <button className="feedback-reveal" type="button" onClick={() => revealAnswer(questionIndex)}>Explain</button>
+                  )}
+                  {!currentResult.correct && (
+                    <>
+                      <button className="feedback-reveal" type="button" onClick={retryAnswer}>Retry</button>
+                      {!currentResult.revealed && (
+                        <button className="feedback-reveal" type="button" onClick={() => revealAnswer(questionIndex)}>Reveal answer</button>
+                      )}
+                    </>
                   )}
                   {currentResult.revealed && (
                     <span className="feedback-answer">Answer: {currentQuestion.options[currentQuestion.answer]}</span>
