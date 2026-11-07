@@ -1,0 +1,117 @@
+{
+  "title": "The Book of Matthew: Comprehension Quiz",
+  "description": "Ten questions about the structure, teachings, and events in the Gospel of Matthew.",
+  "category": "BIBLE",
+  "questions": [
+    {
+      "prompt": "Which four women, besides Mary, are named or referred to in Matthew's genealogy of Jesus?",
+      "options": [
+        "Sarah, Rebekah, Rachel, and Leah",
+        "Tamar, Rahab, Ruth, and the wife of Uriah",
+        "Mary, Elizabeth, Anna, and the Queen of Sheba",
+        "Hagar, Dinah, Tamar, and Abigail"
+      ],
+      "answer": 1,
+      "explanation": "Matthew 1 refers to Tamar, Rahab, Ruth, and the wife of Uriah (traditionally identified as Bathsheba). The text does not name the wife of Uriah here."
+    },
+    {
+      "prompt": "How many major teaching discourses of Jesus are commonly identified in Matthew?",
+      "options": [
+        "Three",
+        "Five",
+        "Seven",
+        "Twelve"
+      ],
+      "answer": 1,
+      "explanation": "Matthew is commonly outlined around five major discourses, each followed by a concluding formula. The five-discourse structure is widely noted; claims that it deliberately mirrors the Torah are interpretive."
+    },
+    {
+      "prompt": "In Matthew 5:17, what does Jesus say about His relationship to the Law and the Prophets?",
+      "options": [
+        "He came to abolish them and establish a completely separate teaching",
+        "He came to suspend them until the resurrection",
+        "He came not to abolish them, but to fulfill them",
+        "He came to limit them to dietary and ritual observances"
+      ],
+      "answer": 2,
+      "explanation": "Jesus says, “I have not come to abolish them but to fulfill them” (Matthew 5:17)."
+    },
+    {
+      "prompt": "Which two figures appear with Jesus at the Transfiguration in Matthew 17?",
+      "options": [
+        "Abraham and David",
+        "David and Elijah",
+        "Moses and Elijah",
+        "Isaiah and Jeremiah"
+      ],
+      "answer": 2,
+      "explanation": "Matthew 17:3 says that Moses and Elijah appeared and talked with Jesus."
+    },
+    {
+      "prompt": "What does Simon Peter confess about Jesus in Matthew 16:16?",
+      "options": [
+        "“You are the Messiah, the Son of the living God.”",
+        "“You are the suffering servant prophesied by Isaiah.”",
+        "“You are the king who has come to overthrow Rome.”",
+        "“You are a righteous teacher sent from God.”"
+      ],
+      "answer": 0,
+      "explanation": "Peter answers, “You are the Messiah, the Son of the living God” (Matthew 16:16). Jesus then speaks of building His church on “this rock”; interpretations of that phrase vary among Christian traditions."
+    },
+    {
+      "prompt": "What is the best description of Matthew's phrase “kingdom of heaven”?",
+      "options": [
+        "It teaches a Gnostic separation of the spiritual realm from the physical world",
+        "It is Matthew's characteristic wording for God's reign and is generally used in a sense parallel to “kingdom of God”",
+        "It refers only to the afterlife, not to God's rule in the present",
+        "It distinguishes Roman citizenship from divine rule"
+      ],
+      "answer": 1,
+      "explanation": "Matthew often uses “kingdom of heaven,” while other Gospel writers commonly use “kingdom of God.” The phrases are generally understood to refer to God's reign; explaining Matthew's wording specifically as reverential avoidance of the divine name is common, but not certain."
+    },
+    {
+      "prompt": "In Jesus' explanation of the Parable of the Sower (Matthew 13:22), what does the seed sown among thorns represent?",
+      "options": [
+        "People who hear the word but fall away when tribulation or persecution arises",
+        "People who hear the word, but worldly worries and the deceitfulness of wealth choke it",
+        "People who hear and understand the word, bearing a fruitful harvest",
+        "People who hear but do not understand, allowing the evil one to take the word away"
+      ],
+      "answer": 1,
+      "explanation": "Jesus says that the worries of this age and the deceitfulness of wealth choke the word, making it unfruitful."
+    },
+    {
+      "prompt": "What happens to the temple curtain at the moment of Jesus' death in Matthew 27:51?",
+      "options": [
+        "The golden lampstand stays lit for forty days",
+        "Fire consumes the altar of incense",
+        "The curtain of the temple is torn in two from top to bottom",
+        "The bronze sea overflows with water"
+      ],
+      "answer": 2,
+      "explanation": "Matthew 27:51 reports that the temple curtain was torn in two from top to bottom; the passage also describes an earthquake and rocks splitting."
+    },
+    {
+      "prompt": "Which recurring formula does Matthew use to connect events in Jesus' life with Scripture?",
+      "options": [
+        "“As it is written in the book of the law of Moses...”",
+        "“This was to fulfill what was spoken by the Lord through the prophet...”",
+        "“Thus says the Lord Almighty to the house of Israel...”",
+        "“In accordance with the ancient covenant made with Abraham...”"
+      ],
+      "answer": 1,
+      "explanation": "Matthew repeatedly uses variations of a fulfillment formula, such as “This was to fulfill what had been spoken by the Lord through the prophet.”"
+    },
+    {
+      "prompt": "How does the Gospel of Matthew conclude in chapter 28?",
+      "options": [
+        "With Jesus' ascension from the Mount of Olives",
+        "With Paul arriving in Rome to preach to the Gentiles",
+        "With the Great Commission in Galilee and Jesus' promise to be with His disciples always",
+        "With the Day of Pentecost and the outpouring of the Holy Spirit"
+      ],
+      "answer": 2,
+      "explanation": "Matthew ends with the risen Jesus commissioning His disciples on a mountain in Galilee and promising, “I am with you always, to the end of the age” (Matthew 28:20)."
+    }
+  ]
+}
