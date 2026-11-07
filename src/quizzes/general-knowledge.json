@@ -1,0 +1,37 @@
+{
+  "title": "A bit of everything",
+  "description": "Five quick questions across science, geography, and the natural world.",
+  "category": "GENERAL KNOWLEDGE",
+  "questions": [
+    {
+      "prompt": "Which planet has the most moons in our solar system?",
+      "options": ["Jupiter", "Saturn", "Neptune", "Uranus"],
+      "answer": 1,
+      "explanation": "Saturn is currently known to have the most confirmed moons."
+    },
+    {
+      "prompt": "What is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+      "answer": 2,
+      "explanation": "The Pacific Ocean covers more area than all of Earth's land combined."
+    },
+    {
+      "prompt": "Which part of a plant cell captures energy from sunlight?",
+      "options": ["Nucleus", "Chloroplast", "Cell wall", "Mitochondrion"],
+      "answer": 1,
+      "explanation": "Chloroplasts contain chlorophyll, which absorbs light for photosynthesis."
+    },
+    {
+      "prompt": "What is the capital city of New Zealand?",
+      "options": ["Auckland", "Christchurch", "Queenstown", "Wellington"],
+      "answer": 3,
+      "explanation": "Wellington has been New Zealand's capital since 1865."
+    },
+    {
+      "prompt": "Which animal is the only mammal capable of true flight?",
+      "options": ["Flying squirrel", "Sugar glider", "Bat", "Colugo"],
+      "answer": 2,
+      "explanation": "Bats generate lift with powered wing beats; the other animals glide."
+    }
+  ]
+}
